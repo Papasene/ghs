@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import gphubhome from "../../public/back.png";
-import { SideBar, TabSearch } from "./component";
+import { TabSearch } from "./component";
 import RootLayout from "./layout";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,10 +22,6 @@ export default function Home() {
           <div className="absolute top-80 left-28">
             <TabSearch />
           </div>{" "}
-        </div>
-
-        <div className="w-12 h-full bg-red-500">
-          <SideBar />
         </div>
       </div>
     </RootLayout>

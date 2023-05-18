@@ -28,6 +28,7 @@ export default function Home() {
         </div>
 
         <div className="w-1/6 h-full bg-white rounded-lg border border-amber-400"></div>
+        <div></div>
       </div>
     </RootLayout>
   );

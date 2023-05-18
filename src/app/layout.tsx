@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-screen h-screen flex flex-1 flex-col bg-gray-200">
+      <body className="w-screen h-auto flex flex-1 flex-col bg-gray-200">
         <div className="w-full h-full flex flex-1 flex-col">
           <div className="w-full h-auto bg-gray-100 flex flex-1 flex-col">
             <Header />

@@ -9,13 +9,14 @@ export default function Home() {
   return (
     <RootLayout>
       <div
-        className="w-full h-full flex justify-start border border-red-600 bg-gray-100 p-2 "
+        className="w-full h-full flex justify-start space-x-4 border border-red-600 bg-gray-100 p-2 "
         id="redbody"
       >
+        <div className="w-1/6 h-flex bg-white rounded-lg border border-amber-400"></div>
         {/* Relative Parent  */}
         <div
           id="between"
-          className="w-5/6 h-full sm:ml-auto flex justify-between max-w-7xl bg-gray-100 rounded-lg relative shadow-2xl shadow-blue-700 border border-amber-400"
+          className="w-4/6 h-full flex justify-between max-w-7xl bg-gray-100 rounded-lg relative shadow-2xl shadow-blue-700 border border-amber-400"
         >
           {/* Static Parent  */}
           <div className="static">
@@ -27,7 +28,7 @@ export default function Home() {
           </div>{" "}
         </div>
 
-        <div className="w-1/6 h-full bg-white rounded-lg border border-amber-400"></div>
+        <div className="w-1/6 h-flex bg-white rounded-lg border border-amber-400"></div>
       </div>
     </RootLayout>
   );

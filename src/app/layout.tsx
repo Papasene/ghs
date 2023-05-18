@@ -1,4 +1,4 @@
-import { Footer, Header, Navbar } from "./component";
+import { Header, Navbar } from "./component";
 import "./globals.css";
 
 export default function RootLayout({
@@ -16,10 +16,10 @@ export default function RootLayout({
           </div>
           <div className="h-full w-full py-2">
             <main className="h-full">{children}</main>
-            <div className="h-32 mt-2">
-              <Footer />
-            </div>
           </div>
+          {/* <div className="h-36">
+            <Footer />
+          </div> */}
         </div>
       </body>
     </html>
